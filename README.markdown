@@ -10,6 +10,7 @@ A jQuery plugin placing your images with Pinterest look.
 **jQuery imagesLoaded plugin**
 
 https://github.com/desandro/imagesloaded
+
 https://github.com/desandro/imagesloaded/blob/master/jquery.imagesloaded.js
 
 
