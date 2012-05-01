@@ -8,6 +8,7 @@ A jQuery plugin placing your images with Pinterest look.
 ## Requirements
 
 **jQuery imagesLoaded plugin**
+
 https://github.com/desandro/imagesloaded
 https://github.com/desandro/imagesloaded/blob/master/jquery.imagesloaded.js
 
@@ -21,7 +22,7 @@ HTML
   <div class="pin">
     <img alt="240x320" src="http://placehold.it/240x320" />
     <div class="anyNameYouWant">
-      span You can set html elements here.
+      You can set html elements here.
     </div>
   </div>
   <div class="pin">
