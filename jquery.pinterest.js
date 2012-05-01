@@ -95,7 +95,8 @@ jQueryPinterest = (function() {
 
   jQueryPinterest.prototype.storePinData = function(el, localHeight, localPins) {
     var img, imgHeight, _imgWidth;
-    img = $(el).children('img:eq(0)');
+    img = $(el).find('img');
+    if (img.length > 1) img = img[0];
     _imgWidth = $(img).width();
     imgHeight = $(img).height() * this.pinWidth / _imgWidth;
     $(img).css({

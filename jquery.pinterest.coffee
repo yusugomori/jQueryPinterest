@@ -87,7 +87,9 @@ class jQueryPinterest
       height: Math.max.apply(null, globalHeight)
 
   storePinData: (el, localHeight, localPins) ->
-    img = $(el).children('img:eq(0)')
+    img = $(el).find('img')
+    if img.length > 1
+      img = img[0]
     _imgWidth = $(img).width()
     imgHeight = $(img).height() * @pinWidth / _imgWidth
     $(img).css
